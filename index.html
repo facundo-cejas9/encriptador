@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/app.css">
+    <title>Document</title>
+</head>
+<body>
+  
+
+   <div class="container contenedor-flex">
+    <main class="contenedor-principal">
+      <div class="logo">
+      <img class="img" src="./img/Logo_Alura.png" alt="">
+    </div>
+      <div class="input">
+      <textarea class="txtSoloLetras" placeholder="ingresa texto" rows="5" cols="25" ></textarea>
+    </div>
+      <div class="contenedor-izq">
+        <p class="parrafo">Sólo letras minúsculas y sin acentos.</p>
+        <button type="button" class="btn-encriptar" onclick="encrypt()">Encriptar</button>
+        <button type="button" class="btn-desencriptar" onclick="desencrypt()">desencriptar!</button>
+      </div>
+    
+
+    </main>
+
+
+
+      
+
+      <aside class="sidebar">
+        <div class="costado">
+          <div class="mensaje">
+            <textarea placeholder="El resultado de tu texto se verá aquí." name="textarea" rows="10" cols="15" class="textarea"></textarea>
+            
+          </div>
+          <div class="contenedor-copia">
+            <button type="button" class="copiar" onclick="copiar()">¡Copiar!</button>
+            
+          </div>
+        
+        </div>
+      </aside>
+     
+    </div>
+   
+   
+
+
+
+    
+      
+
+
+      <script src="./js/app.js"></script>
+
+    
+</body>
+</html>
